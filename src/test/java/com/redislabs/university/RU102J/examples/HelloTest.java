@@ -11,6 +11,7 @@ import static org.hamcrest.Matchers.is;
 
 public class HelloTest {
 
+
     @Test
     public void sayHelloBasic() {
         Jedis jedis = new Jedis(HostPort.getRedisHost(), HostPort.getRedisPort());
